@@ -1,1 +1,43 @@
-[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]
+[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"},{
+  "age": 4,
+  "kind": "Walruss",
+  "name": "Wally"
+  },
+  {
+  "age": 1,
+  "kind": "Turtle",
+  "name": "Franklin"
+  },
+  {
+  "age": 1,
+  "kind": "Mongoose",
+  "name": "Jilian"
+  },
+  {
+  "age": 3,
+  "kind": "Panda",
+  "name": "Patty"
+  },
+  {
+  "age": 5,
+  "kind": "Leopard",
+  "name": "Leo"
+  },
+  {
+  "age": 2,
+  "kind": "Eagle",
+  "name": "Edwar"
+  },
+  {
+  "age": 1,
+  "kind": "MountainGoat",
+  "name": "Molly"
+  },
+{"age": 5,
+"kind": "giraff",
+"name": "dave"},
+{
+"age": 2,
+"kind": "Eagle",
+"name": "Edwar"
+}]
