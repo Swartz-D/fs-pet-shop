@@ -54,6 +54,6 @@ app.param('id',(req,res,next,id)=>{
   next()
 })
 //server listener
-app.listen(3000, ()=>{
-  console.log(`Pet Shop listening on port ${3000}`)
-})
+// app.listen(3000, ()=>{
+//   console.log(`Pet Shop listening on port ${3000}`)
+// })
