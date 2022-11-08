@@ -2,16 +2,14 @@ const express = require('express');
 const app = express();
 const PORT = 3030;
 const {Client} = require('pg');
-//const config = require('./config.json');
 
-//const config = require('./config.json')[process.env.NODE_ENV || "dev"];
+const config = require('./config.json')["dev"];
 
 app.use(express.json())
 app.disable('etag');
 
-const connectionString = "postgresql://postgres:docker@127.0.0.1:5432/pet_shop";
 const client = new Client({
-  connectionString: connectionString,
+  connectionString: config.connectionString,
 });
 client.connect();
 
